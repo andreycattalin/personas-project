@@ -156,3 +156,40 @@ header p {
 .h-300 {
     height: 300px;
 }
+
+footer {
+    text-align: center;
+    padding: 70px 0;
+}
+
+footer .box-links {
+    margin: 20px auto;
+}
+
+.social a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    transition: 0.3s;
+    background: #efefef;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+.social a:hover {
+    opacity: 0.5;
+}
+
+.social a img {
+    height: 28px;
+    width: 28px;
+    display: block;
+}
+
+footer p {
+    font-size: 12px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 40px;
+    color: #6b7181;
+}
