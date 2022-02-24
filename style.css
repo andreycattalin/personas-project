@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -192,4 +196,50 @@ footer p {
     padding-top: 20px;
     margin-top: 40px;
     color: #6b7181;
+}
+
+@media (max-width: 1070px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+   .main-images {
+        display: none;
+   }
+
+   .bg-head {
+        padding-bottom: 50px;
+   }
+}
+
+@media (max-width: 768px) {
+    .box-search {
+        display: none;
+    }
+
+    nav .box-links {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 360px) {
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    footer .box-links {
+        flex-wrap: wrap;
+    }
+
+    footer .box-links a {
+        margin-bottom: 10px;
+    }
 }
