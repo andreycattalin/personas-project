@@ -259,6 +259,21 @@ footer p {
 
 .person-box img {
     width: 100%;
+    border-radius: 4px;
     height: 358px;
     object-fit: cover;
+}
+
+.person-box h2 {
+    font-size: 24px;
+    color: #1e263d;
+    text-align: center;
+    margin: 10px;
+}
+
+.person-box p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(137, 137, 158);
+    margin: 0;
 }
