@@ -347,3 +347,17 @@ footer p {
 .person-info {
   padding: 0 10px;
 }
+
+.text-content {
+  padding: 50px 100px;
+}
+
+.text-content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #2a3a99;
+}
+
+.text-content p {
+  color: #6b7181;
+}
